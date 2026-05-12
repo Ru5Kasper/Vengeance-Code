@@ -1,0 +1,69 @@
+# Общие временные файлы
+*.tmp
+*.log
+*.cache
+*.pid
+*.swp
+*.swo
+
+# Файлы IDE
+.idea/
+.vs/
+.vscode/
+*.csproj
+*.pidb
+*.userprefs
+*.sln
+*.suo
+
+# Unity специфичные
+[Bb]in/
+[Oo]bj/
+Library/
+Temp/
+obj/
+Build/
+Builds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Ассеты и метафайлы (НЕ игнорировать, если используете LFS)
+*.asset
+*.unity
+*.prefab
+*.mat
+*.controller
+*.anim
+*.fbx
+*.png
+*.jpg
+*.wav
+*.mp3
+
+# Файлы автогенерации Unity
+*.cs.meta
+*.unity.meta
+*.prefab.meta
+*.mat.meta
+*.controller.meta
+*.anim.meta
+
+# Аналитика и отчёты
+MemoryCaptures/
+upm.log*
+
+# Плагины (если динамические библиотеки)
+*.dll.meta
+*.pdb
+
+# Платформенные бинарники
+*.exe
+*.app
+*.ipa
+*.apk
+*.aab
+
+# Резервные копии
+*~
+*.backup
+*.old
